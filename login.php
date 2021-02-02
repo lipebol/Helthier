@@ -31,7 +31,7 @@
                     <form method="POST">
                         <input type="email" name="email" placeholder="E-mail" autofocus maxlength="40">
                         <input type="password" name="password" placeholder="Senha" maxlength="16">
-                        <a id="button" href="">Acessar</a>
+                        <input type="submit" name="button" value="Acessar">
                     </form>
                 </section>
         
