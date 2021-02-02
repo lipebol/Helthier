@@ -4,9 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    outline: none;
+    resize: none;
+    font-family:'Poppins', sans-serif;
 }
-                                                        /* SECTION */
+                                                        /* GLOBAL */
 .showcase {
     position: absolute;
     right: 0;
@@ -85,7 +88,7 @@
     /* background: rgba(0, 0, 0, 0.2); */
     /* background: #03a9f4; */
     background: #3e606f;
-    mix-blend-mode: overlay ;
+    mix-blend-mode: overlay;
 
 }
                                                         /* TEXT */
@@ -187,7 +190,7 @@
 }
 
 
-                                                        /* MEDIA QUERY */
+                                                                        /* MEDIA QUERY */
 @media(max-width: 798px) {
                                                         /* MEDIA- SECTION E HEADER */
     .showcase, .showcase header {
