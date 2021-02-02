@@ -42,7 +42,7 @@
     color: #fcfff5;
 }
 
-#login type[submit] {
+#login input [type=submit] {
     display: inline-block;
     width: 400px;
     font-size: 1em;
@@ -56,7 +56,7 @@
     border-radius: 30px;
     transition: 0.2s;
 }
-#login type[submit]:hover {
+#login input [type=submit]:hover {
     background: #91aab4;
     color: #fcfff5;
     letter-spacing: 6px;

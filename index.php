@@ -20,7 +20,7 @@
         <?php
             if(!isset($_SESSION['login'])) 
             {
-                if(isset($_POST['#button'])) {
+                if(isset($_POST['button'])) {
                     echo 'Formulário Enviado';
                 }
 
