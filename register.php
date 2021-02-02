@@ -1,12 +1,4 @@
-<?php
-
-    // TRAZENDO o DOCUMENTO.
-    require_once 'classes/users.php';
-
-    // INSTANCIANDO a CLASSE
-    $u = new Users;
-
-?>
+<!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8"/>
@@ -21,6 +13,15 @@
         <link rel="stylesheet" type="text/css" href="css/login-register.css">
         <title> Helthier | Cadastro </title>
     </head>
+    <?php
+
+    // TRAZENDO o DOCUMENTO.
+    require_once 'classes/users.php';
+
+    // INSTANCIANDO a CLASSE
+    $u = new Users;
+
+    ?>
     <body>
         <section class="showcase">
 
