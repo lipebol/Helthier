@@ -78,13 +78,14 @@
     color: #fcfff5;
 }
                                                         /* REGISTER */
-#register {
+#register, #return {
     margin: 15px;
+    font-size: 20px;
 }
 
-#register a {
+#register a, #return a {
     color: #fcfff5;
 }
-#register a:hover {
+#register a:hover, #return a:hover {
     text-decoration: underline;
 }
