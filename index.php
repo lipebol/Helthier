@@ -48,7 +48,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                    Error, impedit possimus?
                    Ipsum modi tempore tenetur minus porro, libero ad suscipit.</p>
-                <a href="login.html">Cuide-se</a>
+                <a href="login.php">Cuide-se</a>
             </div>
 
             <ul class="social">
