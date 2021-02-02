@@ -17,7 +17,7 @@
         <section class="showcase">
 
             <header>
-                <h2 class="logo">Helthier</h2>
+                <h2 class="logo"><a href="index.html" rel="noopen noreferrer">Helthier</a></h2>
                 <div class="toggle"></div>
             </header>
 
@@ -29,13 +29,17 @@
                 <section id="login">
                     <h1>Cadastro</h1>
                     <form method="POST">
-                        <input type="text" name="name" placeholder="Nome Completo" autofocus maxlength="30">
-                        <input type="tel" name="telephone" placeholder="Telefone" maxlength="30">
-                        <input type="email" name="email" placeholder="E-mail" maxlength="40">
-                        <input type="password" name="password" placeholder="Senha" maxlength="16">
-                        <input type="password" name="confirmpassword" placeholder="Confirmar Senha" maxlength="16">
+                        <input type="text" name="name" placeholder="Nome Completo" autofocus required>
+                        <input type="tel" name="telephone" placeholder="(099) 99999-9999" required>
+                        <input type="email" name="email" placeholder="example@domain.com" required>
+                        <input type="password" name="password" placeholder="Digite uma Senha" maxlength="16" required>
+                        <input type="password" name="confirmpassword" placeholder="Confirme a Senha" maxlength="16" required>
                         <a href="">Cadastrar</a>
                     </form>
+                </section>
+
+                <section id="return">
+                    <a href="login.html" rel="noopen noreferrer"><strong> <<< &nbsp; LOGAR </strong></a>
                 </section>
             </div>
 
